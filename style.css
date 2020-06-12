@@ -1,0 +1,48 @@
+.body{
+	margin: 0;
+	padding: 0;
+	color: white;
+	background-image: url("https://scx2.b-cdn.net/gfx/news/hires/2018/milkyway.jpg");
+	background-size: cover;
+	background-position: center;
+}
+a {
+	width: 100%;
+}
+.planet{
+	border-radius: 50%;
+	width: 100%;
+
+	/* width: 200px;
+	height: 200px;
+	border: 8px solid white; */
+}
+/* здесь для Сатурна убираем загругление уголков, потому что у него кольца  */
+#saturn {
+	border-radius: 0;
+}
+.planets{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.title{
+	font-family: sans-serif;
+	margin-top: 250px;
+	font-size: 150px;
+	display: flex;
+	justify-content: center;
+	color: transparent;
+	color: white;
+	letter-spacing: .1em;
+	text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e,
+	 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a,
+	 0 4px 0 #282828, 0 5px 0 #262626,
+	 0 6px 0 #242424, 0 7px 0 #222,
+	 0 8px 0 #202020, 0 9px 0 #1e1e1e,
+	 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a,
+	 0 12px 0 #181818, 0 13px 0 #161616,
+	 0 14px 0 #141414, 0 15px 0 #121212,
+	 0 22px 30px rgba(0,0,0,0.9);
+}
